@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "AgriShield AI",
+    "slug": "agrishield-ai",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#F5FAF3" },
+    "assetBundlePatterns": ["**/*"],
+    "android": { "package": "com.agrishield.ai" },
+    "ios": { "bundleIdentifier": "com.agrishield.ai" }
+  }
+}

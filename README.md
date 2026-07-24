@@ -1,41 +1,24 @@
-# 🌱 AgriShield AI
+# AgriShield AI
 
-AgriShield AI is a smart agriculture platform designed to help farmers improve crop health, reduce losses, and increase productivity using AI and IoT technologies.
+Expo React Native foundation for the AgriShield AI smart-farming mobile app.
 
-## 🚀 Features
+## Run it
 
-- AI Crop Disease Detection
-- Weather Forecast & Alerts
-- Smart Irrigation Recommendations
-- Soil Health Monitoring
-- Crop Image Analysis
-- Farm Dashboard
-- Real-time Notifications
-- GPS Field Monitoring
-- Multi-language Support
+1. Install [Node.js LTS](https://nodejs.org/).
+2. In this folder, run `npm install`.
+3. Run `npx expo start` and open the QR code in Expo Go, or use an Android/iOS simulator.
 
-## 🛠️ Technology Stack
+## Included now
 
-- React Native (Expo)
-- FastAPI (Python)
-- MongoDB
-- AI / Machine Learning
-- IoT Sensors
+- Animated splash screen
+- Role-aware mobile/OTP login flow (demo mode)
+- Farmer dashboard with weather, soil, crop, water and AI cards
+- Home, Scan, Analytics, Assistant and Profile navigation
+- Reusable card, button, screen, metric, and navigation components
+- Service contracts and mock farm data, ready to be replaced with real APIs
 
-## 📈 Future Improvements
+## Next modules
 
-- Organic Farming Module
-- Government Scheme Integration
-- Smart Field Box
-- AI Chat Assistant
-- Drone Integration
+Disease scanning, smart irrigation control, live sensor feeds, maps, reports, marketplace, and role-specific portals should be added to `src/features` without changing the app shell.
 
-## 👨‍💻 Developer
-
-**L. Yeswanth Sai**  
-Intermediate 2nd Year (MPC)  
-Andhra Pradesh, India
-
-## 📄 License
-
-This project is shared for learning and innovation purposes.
+> The demo authentication and data are intentionally local-only. Before release, connect `src/services` to a secure backend and Firebase/Auth provider; never treat the demo OTP as a production authentication system.
